@@ -5,6 +5,9 @@ def main():
     if os.path.exists("./data.txt") is False:
         print("data file not exists")
         return
+    if os.path.exists("./thai_data.txt") is False:
+        print("thai data file not exists")
+        return
 
     # Read data
     f = open("./data.txt")
@@ -27,6 +30,7 @@ def main():
 
     run = True
     while run:
+        # input
         thai = ""
         thai = input("Please input thai onomatopoeia:\n\
         (bokbok, mewmew, jibjib, momo, aooaoo,\n\
@@ -61,7 +65,7 @@ def main():
             if len(thai) == len(i[0]):
                 wight_tmp += 1
             wight.append(wight_tmp)
-        print(wight)
+
         # output
         if wight.count(max(wight)) == 1:
             print("The animal is a " + ja_animal_list[wight.index(max(wight))][1])
