@@ -1,20 +1,18 @@
-wanwan dog
-nyanya cat
-tyuntyun sparrow
-momo cow
-booboo pig
-kokekoko chicken
-gaga duck
-mama sheep
-kerokero frog
-syasya snake
-kaka crow
-bumbum bee
-paoon elephant
-keke monkey
-tyutyu mouse 
-heheyn hourse
-konkon fox
-popoo pigeon
-gao lion
--1 -1
+bowbow,dog
+myamya,cat
+tyuntyun,sparrow
+momo,cow
+booboo,pig
+kokekoko,chicken
+gaga,duck
+mama,sheep
+kerokero,frog
+syasya,snake
+kaka,crow
+bumbum,bee
+paoon,elephant
+keke,monkey
+tyutyu,mouse 
+heheyn,hourse
+popoo,pigeon
+gao,lion
