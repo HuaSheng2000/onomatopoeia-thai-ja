@@ -2,7 +2,7 @@ When input Thai onomatopoeia return ja onomatopoeia and animal name.
 
 input:
 
-bokbok, mewmew, jibjib, momo, aooaoo, aeuaeaaea, gapgap, baba, opop, soosoo, gaga, humhum, pantpant, jeiujeiu, jeetjeet, heyhey, baba, woowoo, koo,
+bokbok, mewmew, jibjib, momo, aooaoo, aeuaeaaea, gapgap, baba, opop, soosoo, gaga, humhum, pantpant, jeiujeiu, jeetjeet, heyhey, woowoo, koo,
 
 The result:
 
