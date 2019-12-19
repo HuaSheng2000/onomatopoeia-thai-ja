@@ -33,10 +33,10 @@ def main():
         # input
         thai = ""
         thai = input("Please input thai onomatopoeia:\n\
-        (bokbok, mewmew, jibjib, momo, aooaoo,\n\
-        aeuaeaaea, gapgap, baba, opop, soosoo,\n\
-        gaga, humhum, pantpant, jeiujeiu,\n\
-        jeetjeet, heyhey, woowoo, koo,\n\
+        (bok, mew, jib, mo, aoo,\n\
+        aeuaeaaea, gap, ba, op, soo,\n\
+        ga, hum, pant, jeiu,\n\
+        jeet, hey, woo, koo,\n\
         quit with \"q\")\n")
 
         # quit
@@ -62,6 +62,8 @@ def main():
                     break
                 if i[0][k] == thai[k]:
                     wight_tmp += 1
+                if i[0][1] != thai[1]:
+                    break
             if len(thai) == len(i[0]):
                 wight_tmp += 1
             wight.append(wight_tmp)
