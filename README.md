@@ -1,11 +1,11 @@
 When input Thai onomatopoeia return ja onomatopoeia and animal name.
 
 input:
-
+```
 bokbok, mewmew, jibjib, momo, aooaoo, aeuaeaaea, gapgap, baba, opop, soosoo, gaga, humhum, pantpant, jeiujeiu, jeetjeet, heyhey, woowoo, koo,
-
+```
 The result:
-
+```
 bokbok  
 [5, 1, 0, 1, 5, 2, 0, 0, 0, 1, 1, 3, 0, 1, 1, 1, 3, 2, 0]  
 The animal may be a dog or a pig  
@@ -79,3 +79,4 @@ koo
 The animal may be a pig or a chicken or a fox or a lion  
 
 Correct rate is 10/18 = 55.6%
+```
